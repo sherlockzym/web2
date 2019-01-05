@@ -1,17 +1,17 @@
 window.onload = function(){
 
-	var shang = document.getElementsByClassName('shang')[0];
+	var dingbu = document.getElementsByClassName('dingbu')[0];
 	var headHeight = document.getElementById('headHeight');
 	window.onscroll = function(){
 
 		var st = document.documentElement.scrollTop||document.body.scrollTop;
 		if (st>180) {
-			shang.style.position = 'fixed';
-			shang.style.top = "0px";
+			dingbu.style.position = 'fixed';
+			dingbu.style.top = "0px";
 			headHeight.style.height = "153px"
 		}
 		else{
-			shang.style.position = 'static';
+			dingbu.style.position = 'static';
 			headHeight.style.height = "0px"
 		}
 	}

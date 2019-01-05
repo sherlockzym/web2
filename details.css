@@ -1,14 +1,14 @@
-.nei{
+.bigkuai{
 	width: 1300px;
 	margin: 0 auto;
 }
-.shang{
+.dingbu{ 
 	width: 1300px;
 	height: 143px;
 	background-color: white;
 	z-index: 999;
 }
-.one{
+.dingone{
 	width: 1300px;
 	height: 38px;
 	line-height: 38px;
@@ -17,7 +17,9 @@
 	font-family: '黑体';
 	color: #a89791;
 }
-
+.dingone>span{
+	margin-left:85px;
+}
 .head-nav img {
 	vertical-align: middle;
 }
@@ -29,7 +31,7 @@
 	margin-left: 10px;
 	cursor: pointer;
 }
-.two{
+.dingtwo{
 	width: 1300px;
 	height: 105px;
 	background-color: white;
@@ -60,14 +62,14 @@
 	outline: none;
 	cursor: pointer;
 }
-.two ul{
+.dingtwo ul{
 	float: left;
 	padding-left: 110px;
 	list-style:none;
 	font-size: 6px;
 	font-family: '黑体';
 }
-.two ul li{
+.dingtwo ul li{
 	float: left;
 	margin:0px 8px;			
 	padding-right: 2px;
@@ -86,7 +88,7 @@
 	color: #666560;
 	border-width: 0px;
 }
-.t1{
+.lianxi1{
 	width: 85px;
 	height: 44px;
 	border: 1px solid #e6e5e2;
@@ -98,7 +100,7 @@
 	font-size: 12px;
 	color: #a89791;
 }
-.t2{
+.lianxi2{
 	width: 85px;
 	height: 44px;
 	border: 1px solid #e6e5e2;
@@ -109,7 +111,7 @@
 	font-size: 12px;
 	color: #a89791;
 }
-.t3{
+.lianxi3{
 	width: 85px;
 	height: 44px;
 	line-height: 44px;
@@ -122,7 +124,7 @@
 	font-size: 13px;
 }
 
-.t1 p, .t2 p {
+.lianxi1 p, .lianxi2 p {
 	margin: 0;
 	padding: 0;
 }
@@ -279,21 +281,11 @@
 	float: left;
 	margin-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-.d1{
+.dibu1{
 	width: 1300px;
 	height: 183px;
 }
-.d11{
+.dibu11{
 	float: left;
 	height: 153px;
 	width: 100px;
@@ -303,13 +295,45 @@
 	margin-top: 30px;
 
 }
-.d12{
+.dibu12{
 	float: left;
 	width: 100px;
 	height: 153px;
 	list-style:none;
 	line-height: 25px;
 	margin-top: 30px;
+}
+.dibu2{
+	width: 1300px;
+	height: 110px;
+	
+}
+.dibu2 ul{
+	font-family: '黑体';
+	font-size: 12px;
+	padding-left: 350px;
+	list-style:none;
+	overflow: hidden;
+}
+.dibu2 ul li{
+	float: left;
+	margin:0px 8px;			
+	padding-right: 15px;
+	border-right:1px solid #ebe7e7;
+
+}
+.dibu2 p {
+	color: #a79791;
+	font-family: '黑体';
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+}
+.dibu3 {
+	float: left;
+	width: 1300px;
+	height: 80px;
+	margin-top: 8px;
 }
 .li4{
 	font-family: '黑体';
@@ -321,38 +345,7 @@
 	font-size: 12px;
 	color: #666560;
 }
-.d2{
-	width: 1300px;
-	height: 110px;
-	
-}
-.d2 ul{
-	font-family: '黑体';
-	font-size: 12px;
-	padding-left: 350px;
-	list-style:none;
-	overflow: hidden;
-}
-.d2 ul li{
-	float: left;
-	margin:0px 8px;			
-	padding-right: 15px;
-	border-right:1px solid #ebe7e7;
 
-}
-.d2 p {
-	color: #a79791;
-	font-family: '黑体';
-	font-size: 12px;
-	line-height: 25px;
-	text-align: center;
-}
-.d3 {
-	float: left;
-	width: 1300px;
-	height: 80px;
-	margin-top: 8px;
-}
 
 
 
