@@ -5,7 +5,7 @@ window.onload = function(){
 	window.onscroll = function(){
 
 		var st = document.documentElement.scrollTop||document.body.scrollTop;
-		if (st>100) {
+		if (st>50) {
 			dingbu.style.position = 'fixed';
 			dingbu.style.top = "0px";
 			headHeight.style.height = "153px"
