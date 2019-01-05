@@ -4,7 +4,8 @@ html, body {
 }
 #big{
 	width: 100%;
-	height: 1060px;	
+	height: 1060px;
+	
 }
 .bigkuai{
 	width: 1300px;
@@ -128,6 +129,7 @@ html, body {
 .huakuai4:hover .erwei {
 	opacity: 1;
 }
+
 .dingtwo ul{
 	float: left;
 	padding-left: 110px;
@@ -169,7 +171,7 @@ html, body {
 .lianxi2{
 	width: 85px;
 	height: 44px;
-	border: 1px solid #e6e5e
+	border: 1px solid #e6e5e2;
 	border-radius:2px;
 	float: left;
 	margin-top: 21px;
@@ -188,6 +190,7 @@ html, body {
 	font-family: '黑体';
 	font-size: 13px;
 }
+
 .lianxi1 p, .lianxi2 p {
 	margin: 0;
 	padding: 0;

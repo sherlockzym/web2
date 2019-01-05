@@ -5,7 +5,7 @@ window.onload = function(){
 	window.onscroll = function(){
 
 		var st = document.documentElement.scrollTop||document.body.scrollTop;
-		if (st>180) {
+		if (st>100) {
 			dingbu.style.position = 'fixed';
 			dingbu.style.top = "0px";
 			headHeight.style.height = "153px"
@@ -17,7 +17,7 @@ window.onload = function(){
 	}
 
 	window.onload = roll(50);
-
+ 
 	function roll(t){
 		var ul1 = document.getElementById("ul1");
     	var ul2 = document.getElementById("ul2");
