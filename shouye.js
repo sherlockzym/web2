@@ -1,17 +1,17 @@
 window.onload = function(){
 
-	var shang = document.getElementsByClassName('shang')[0];
+	var dingbu = document.getElementsByClassName('dingbu')[0];
 	var headHeight = document.getElementById('headHeight');
 	window.onscroll = function(){
 
 		var st = document.documentElement.scrollTop||document.body.scrollTop;
 		if (st>180) {
-			shang.style.position = 'fixed';
-			shang.style.top = "0px";
+			dingbu.style.position = 'fixed';
+			dingbu.style.top = "0px";
 			headHeight.style.height = "153px"
 		}
 		else{
-			shang.style.position = 'static';
+			dingbu.style.position = 'static';
 			headHeight.style.height = "0px"
 		}
 	}
@@ -21,23 +21,23 @@ window.onload = function(){
 	function roll(t){
 		var ul1 = document.getElementById("ul1");
     	var ul2 = document.getElementById("ul2");
-    	var z42 = document.getElementById("z42");
+    	var kuai42 = document.getElementById("kuai42");
     	ul2.innerHTML = ul1.innerHTML;
-    	z42.scrollTop = 0;
+    	kuai42.scrollTop = 0;
     	var timer = setInterval(rollStart, 50);
-    	z42.onmouseover = function () {
+    	kuai42.onmouseover = function () {
         	    clearInterval(timer)
         	}
-    	z42.onmouseout = function () {
+    	kuai42.onmouseout = function () {
         	    timer = setInterval(rollStart, 50);
         	}
 }
 
 function rollStart() {
-    if (z42.scrollTop >= ul1.scrollHeight) {
-        z42.scrollTop = 0; 
+    if (kuai42.scrollTop >= ul1.scrollHeight) {
+        kuai42.scrollTop = 0; 
     }else {
-        z42.scrollTop++;
+        kuai42.scrollTop++;
     }
 }
 
